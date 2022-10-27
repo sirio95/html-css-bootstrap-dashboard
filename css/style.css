@@ -33,3 +33,15 @@ body{
     text-decoration: none;
 }
 
+
+.white{
+    color:#fff;
+}
+.lateral{
+    padding-top:50px;
+    max-height:calc(100vh - 50px);
+}
+.ms_space{
+    max-height:50%;
+    margin-bottom:0;
+}
