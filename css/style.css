@@ -8,3 +8,28 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
 }
+
+/* Navbar - Bootstrap*/
+.navigation{
+    width:100%;
+    height:50px;
+    position:fixed;
+}
+.ms_long{
+    max-width:80%;
+    flex-basis: 60%;
+
+}
+.ms_adj{
+    background-color: transparent;
+}
+.ms_short{
+    max-width: 5%;
+    justify-content:flex-end;
+    margin-right:0;
+}
+.ms_btn{
+    color:#ff8e00;
+    text-decoration: none;
+}
+
