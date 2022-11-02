@@ -33,15 +33,32 @@ body{
     text-decoration: none;
 }
 
-
-.white{
+/* Sidebar */
+.sidebar{
+    height:calc(100vh - 50px);
+    width: 150px;
+    padding-top:80px;
+    padding-left:10px;
+}
+.ms_sidebar{
+    margin:0;
+}
+.ms_sidebar_item{
     color:#fff;
+    text-decoration: none;
+    padding:10px;
 }
-.lateral{
-    padding-top:50px;
-    max-height:calc(100vh - 50px);
+
+#menu{
+    width:100%;
+    padding-left:10px;
 }
-.ms_space{
-    max-height:50%;
-    margin-bottom:0;
+
+
+
+@media all and (max-width: 767px) {
+    .sidebar{
+        width:50px;
+    }
+    
 }
